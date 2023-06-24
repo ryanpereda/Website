@@ -29,4 +29,6 @@ def submit():
 
     return redirect(url_for('contact'))
 
-app.run()
+
+if __name__ == '__main__':
+    app.run()
